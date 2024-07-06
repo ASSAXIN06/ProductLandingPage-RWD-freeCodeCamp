@@ -13,6 +13,22 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    border-radius: 5px;
+}
+
+#hero{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    padding: 7px;
+    
+}
+
+#email{
+    width: 40vw;
 }
 
 nav{
@@ -29,6 +45,17 @@ nav{
     border: 2px;
 }
 
+#howItWorks{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
 #pricing{
     display: flex;
     flex-direction: row;
@@ -40,6 +67,15 @@ nav{
     border: 2px solid black;
     border-radius: 8px;
     padding: 10px 10px;
+}
+
+.product:hover{
+    cursor: pointer;
+}
+
+.product:active{
+    scale: 0.9;
+    opacity: 0.8;
 }
 
 @media (max-width:800px ){
@@ -62,6 +98,10 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    iframe{
+        width: 100%;
     }
 }
 
